@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(174, 197, 240);
+}
+.soft-ui{
+    position: absolute;
+    cursor: pointer;
+    width: 300px;height: 300px;
+    top: 40%; left: 40%;
+    background: #5271ff;
+    box-shadow: 20px 20px 61px #4159c9,
+                -20px -20px 61px #6389ff;
+    border-radius: 50px;
+
+}
+
+.copy-ui{
+    height: 250px;width: 250px;
+
+    border-radius: 50px;
+    background: #55b9f3;
+    box-shadow:  20px 20px 60px #489dcf, 
+                -20px -20px 60px #62d5ff;
+}

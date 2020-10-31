@@ -1,0 +1,49 @@
+.gold{
+    color: transparent;
+    font-size: 150px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background-image: linear-gradient(
+        to right,
+        #462523 0,
+        #cb9b50 15%,
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462525 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.shine{
+    text-transform: uppercase;
+    font-family: 'Century Gothic';
+    font-weight: lighter;
+    font-size: 50px!important;
+    transform: translate(-50%,-50%);
+
+    margin: 0;
+    position: absolute;
+    top: 50%; left: 50%;
+
+    /* main design */
+    background-image: linear-gradient(90deg,#111,#fff,#111);
+    background-repeat: no-repeat;
+    background-size: 120% 100%;
+    background-clip: inherit;
+    color: #111111;
+    animation: shining 5s linear infinite;
+}
+@keyframes shining{
+    0%{
+        background-position: -550% 0;
+    }
+    100%{
+        background-position: 550% 0;
+    }
+}
+body{
+    background-color: #111;
+}
